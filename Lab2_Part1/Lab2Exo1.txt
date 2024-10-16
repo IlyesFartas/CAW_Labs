@@ -1,0 +1,41 @@
+1
+mkdir learnGit
+
+2
+cd learnGit
+
+3
+touch three.txt
+
+4
+git init
+
+5
+git add three.txt
+
+6
+git commit -m "three.txt added"
+
+7
+git log
+
+8
+touch four.txt
+
+9
+git add four.txt
+
+10
+git commit -m "added four.txt"
+
+11
+rm three.txt
+
+12
+git add three.txt
+
+13
+git commit -m "delete three.txt"
+
+14
+git log
