@@ -1,0 +1,10 @@
+{
+  "name": "caw_labs",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^VERSION"
+  }
+}
