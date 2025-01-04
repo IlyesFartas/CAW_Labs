@@ -1,0 +1,43 @@
+/* Add Transaction */
+.add-transaction {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 0;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-transaction form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.add-transaction input,
+.add-transaction select,
+.add-transaction button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-transaction .type-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.add-transaction button {
+  background-color: grey;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-transaction button.active.income {
+  background-color: #4caf50;
+}
+
+.add-transaction button.active.expense {
+  background-color: #f44336;
+}
